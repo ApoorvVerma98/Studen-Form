@@ -1,0 +1,43 @@
+.student-form {
+  margin-bottom: 20px;
+}
+
+.student-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.student-form input[type='text'],
+.student-form input[type='number'] {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.student-form button[type='submit'] {
+  padding: 5px 10px;
+  background: linear-gradient(45deg, #be21d9, #0831ea);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.student-table th,
+.student-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-table th {
+  background-color: #f2f2f2;
+}
